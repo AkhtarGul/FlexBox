@@ -1,0 +1,26 @@
+.flex-container{
+display: flex;
+/* flex-direction:row; */
+justify-content:center;
+align-items:flex-start ;
+/* flex-wrap: wrap;  instead use flex-flow*/
+flex-flow: row wrap; 
+border: 2px solid gray;
+height: 45vh;
+}
+.flex-item{
+    border: 2px solid black;
+    margin:12px;
+    background-color: red;
+    /* padding: 3px; */
+    width: 122px;
+    height: 122px;
+    border-radius: 30px;
+    text-align: center;
+}
+.item-1{
+    /* flex-grow: 3; */
+    order: 3;
+    /* flex-shrink: 2; */
+    align-self: center;
+}
